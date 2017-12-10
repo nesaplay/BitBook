@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import { IMG_PLACEHOLDER_ICON } from '../../constants';
 
 class PeoplePattern extends Component {
 
@@ -7,7 +8,7 @@ class PeoplePattern extends Component {
 
         const { name, aboutShort, avatarUrl, lastPostDate } = this.props.user;
 
-        const image = avatarUrl ? avatarUrl : 'http://via.placeholder.com/100x75';
+        const image = avatarUrl ? avatarUrl : IMG_PLACEHOLDER_ICON ;
 
         return (
             <article className="section">
