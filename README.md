@@ -1,1 +1,24 @@
-BitBook readme file
+# BitBook
+BitBook is a Social Media SPA, much like popular Facebook itself. Users can create an account, post image, video, or text posts, comment on other users posts, update profile and much more. All forms are validated client side, and server response errors are being handled. 
+
+
+[DEMO](https://bitbook-react.herokuapp.com/)
+
+# Showcasing 
+
+    -   React.js
+    -   All RESTFul API Routes
+    -   Separation of concerns
+    -   Passing data through multiple layers, both ways
+    -   Stateful and Stateless components
+    -   Routing and navigation
+    -   Authentication
+    -   Validation
+
+# Stack
+
+    Language:   HTML5, CSS3, JS(ES6)
+    Framework:  React, MaterializeCSS
+    Module Loader:  Webpack
+    Package Manager:  Yarn
+    Deployment: Heroku
