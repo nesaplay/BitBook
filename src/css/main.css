@@ -148,3 +148,9 @@ main {
     padding: 5px;
     text-transform: uppercase;    
 }
+
+.active-tab {
+    border-bottom: 2px solid #2F394D;
+    color: white;
+    transition: all 0.5s;
+}

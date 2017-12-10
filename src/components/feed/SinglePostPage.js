@@ -77,7 +77,7 @@ class SinglePostPage extends Component {
         };
 
         dataService.postComments(data,
-            response => window.location.reload(),
+            response => this.getAllComments(),
             error => console.warn(error));
 
         this.getAllComments();

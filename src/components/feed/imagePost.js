@@ -28,7 +28,7 @@ export default class ImagePost extends React.Component {
                     </p>
                 </div>
                 <div className="col s12">
-                    {this.props.enableDelete ? <button className="btn small center" onClick={this.onDeleteButtonClick}>DELETE</button> : ''}
+                    {this.props.enableDelete ? <span className="btn right" onClick={this.onDeleteButtonClick}><i class="material-icons">delete_forever</i></span> : ''}
                 </div>
             </main>
         );

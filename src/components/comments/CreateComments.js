@@ -42,18 +42,16 @@ export default class CreateComments extends Component {
     render() {
         return (
 
-            <div className="row container center">
+            <form className="row container center" onSubmit={this.sendComments}>
                 <div className="input-field col s9">
                     <input id="comment" type="text" onChange={this.updateValue} value={this.state.comment} />
                     <label htmlFor="comment">Add your comment</label>
                     <span className="helper-text" ></span>
                 </div>
                 <div className="col s3">
-                    <button onClick={this.sendComments} type="submit"  className="btn waves-effect waves-light" >
-                    Send
-                    </button>
+                    <button type="submit"  className="btn waves-effect waves-light">Send</button>
                 </div>
-            </div>
+            </form>
 
         );
     }

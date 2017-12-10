@@ -23,7 +23,7 @@ class AuthenticationService {
     }
 
     successRegister() {
-        redirectService.goTo('/');        
+        redirectService.goTo('/login');        
     }
 
     isUserAuthenticated() {

@@ -95,6 +95,7 @@ class Register extends Component {
                     </div>
                     <button type="submit" className="btn waves-effect waves-light right">Register</button>
                 </form>
+
                 <div className={['col', 's12', 'error-box', this.state.isHidden && 'hide'].join(' ')}>
                     <p>SERVER RESPONSE</p>
                     <p className='error-message'>{this.state.errorMessage}</p>
