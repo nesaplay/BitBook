@@ -1,5 +1,7 @@
 # BitBook
-BitBook is a Social Media SPA, much like popular Facebook itself. Users can create an account, post image, video, or text posts, comment on other users posts, update profile and much more. All forms are validated client side, and server response errors are being handled. 
+BitBook is a Social Media Single Page Application. Users can create an account, post image, video, or text posts, comment on other users posts, update profile and much more. All forms are validated client side, and server response errors are being handled. 
+
+Redux implementation coming soon...
 
 
 [DEMO](https://bitbook-react.herokuapp.com/)
