@@ -6,4 +6,4 @@ export const IMG_PLACEHOLDER = 'https://www.maintenanceconnection.com/website/wp
 export const IMG_PLACEHOLDER_ICON = 'https://via.placeholder.com/100x75';
 export const SESSION_STORAGE_USER_KEY = 'USER_ID';
 export const BITBOOK_INFO_1 = 'BitBook is a popular free social networking website that allows registered users to create profiles, upload photos and video, and keep in touch with friends, family and colleagues.';
-export const BITBOOK_INFO_2 = 'According to statistics from the Nielsen Group, Internet users within Serbia spend more time on BitBook than any other website.';
+export const BITBOOK_INFO_2 = 'According to statistics from the Public research, Internet users within Serbia spend more time on BitBook than any other website.';
