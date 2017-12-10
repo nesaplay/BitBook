@@ -189,6 +189,7 @@ class Feed extends Component {
                     </div>);
                 }
             }
+            return null;
         });
     }
 

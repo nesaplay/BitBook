@@ -34,6 +34,10 @@ export default class ProfilePage extends Component {
         };
     }
 
+    initModal() {
+        Modal.setAppElement('body');        
+    }
+
     bindEventHandlers() {
         this.successProfile = this.successProfile.bind(this);
         this.openModal = this.openModal.bind(this);
@@ -71,6 +75,7 @@ export default class ProfilePage extends Component {
 
     componentDidMount() {
         this.collectProfileInfo();
+        this.initModal();
     }
 
     componentWillReceiveProps(nextProps) {
