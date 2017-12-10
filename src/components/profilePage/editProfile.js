@@ -88,7 +88,7 @@ export default class EditProfile extends Component {
                     <div className="input-field col s12">
                         <input id="avatarUrl" type="text" className="validate" required="" onChange={this.updateValue} value={this.state.avatarUrl} />
                         <label htmlFor="avatarUrl">AvatarUrl</label>
-                        <span className="helper-text" data-error="avatar is required" data-success="success"></span>
+                        <span className="helper-text" data-error="avatar should be an url to image" data-success="success"></span>
                     </div>
                     <button type="submit" className="btn waves-effect waves-light right">Update</button>
                 </form>
