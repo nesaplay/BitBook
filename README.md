@@ -9,7 +9,7 @@ Redux implementation coming soon...
 # Showcasing 
 
     -   React.js
-    -   All RESTFul API Routes
+    -   RESTFul API
     -   Separation of concerns
     -   Passing data through multiple layers, both ways
     -   Stateful and Stateless components
