@@ -1,12 +1,11 @@
 class RedirectService {
+  goTo(path) {
+    window.location.assign(`#${path}`);
+  }
 
-    goTo(path) {
-        window.location.assign(`#${path}`);
-    }
-
-    reload() {
-        window.location.reload();
-    }
-};
+  reload() {
+    window.location.reload();
+  }
+}
 
 export const redirectService = new RedirectService();

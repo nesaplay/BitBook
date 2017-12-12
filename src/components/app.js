@@ -5,12 +5,11 @@ import HomePage from './profilePage/homePage';
 import { authenticationService } from '../services/authenticationService';
 
 export default class App extends React.Component {
-
-    render() {
-
-        return authenticationService.isUserAuthenticated() 
-            ?   <HomePage /> 
-            :   <LoginPage />;
-
-    }
+  render() {
+    return authenticationService.isUserAuthenticated() ? (
+      <HomePage />
+    ) : (
+      <LoginPage />
+    );
+  }
 }

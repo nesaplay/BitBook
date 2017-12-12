@@ -10,8 +10,9 @@ import 'materialize-css';
 import App from './components/app';
 
 render(
-    <HashRouter>
-        <App />
-    </HashRouter>,
-    document.querySelector('.app'));
+  <HashRouter>
+    <App />
+  </HashRouter>,
+  document.querySelector('.app')
+);
 registerServiceWorker();
