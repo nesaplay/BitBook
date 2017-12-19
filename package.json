@@ -1,18 +1,21 @@
 {
-  "name": "blog",
+  "name": "bitbook-spa",
   "version": "1.0.0",
+  "homepage": "https://nesaplay.github.io/BitBook",
   "description": "Sample Blog app in React",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "yarn run build&&gh-pages -d build"
   },
   "author": "BIT",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.17.1",
     "babel-polyfill": "^6.26.0",
+    "gh-pages": "^1.1.0",
     "install": "^0.10.2",
     "jquery": "^3.2.1",
     "jquery-validation": "^1.17.0",
