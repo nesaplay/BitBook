@@ -4,9 +4,8 @@ BitBook is a Social Media Single Page Application. Users can create an account, 
 Redux implementation coming soon...
 
 
-DEMO : [BITBOOK](https://bitbook-react.herokuapp.com/) 
+DEMO : [BITBOOK](https://nesaplay.github.io/BitBook/) 
 
-(might take couple seconds to wakeup)
 
 # Showcasing 
 
